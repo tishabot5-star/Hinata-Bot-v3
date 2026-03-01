@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const mahmud = [
+const 𝐄𝐯𝐚𝐧 𝐕𝐚𝐢 = [
         "baby",
         "bby",
         "babu",
