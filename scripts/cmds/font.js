@@ -1,8 +1,8 @@
 const axios = require("axios");
 
-const mahmud = async () => {
+const 𝐄𝐯𝐚𝐧 = async () => {
         const base = await axios.get("https://raw.githubusercontent.com/mahmudx7/HINATA/main/baseApiUrl.json");
-        return base.data.mahmud;
+        return base.data.𝐄𝐯𝐚𝐧 𝐕𝐚𝐢;
 };
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
                 name: "font",
                 aliases: ["style"],
                 version: "1.7",
-                author: "MahMUD",
+                author: "𝐄𝐯𝐚𝐧 𝐕𝐚𝐢",
                 countDown: 5,
                 role: 0,
                 description: {
@@ -54,7 +54,7 @@ module.exports = {
                 }
 
                 try {
-                        const apiUrl = await mahmud();
+                        const apiUrl = await 𝐄𝐯𝐚𝐧 𝐕𝐚𝐢();
 
                         if (args[0] === "list") {
                                 const res = await axios.get(`${apiUrl}/api/font/list`);
